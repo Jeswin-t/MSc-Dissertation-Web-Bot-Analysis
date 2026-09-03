@@ -6,7 +6,7 @@ The project investigates web-bot detection from a dataset-centred perspective. I
 
 The analysis examines areas such as dataset size, class distribution, feature diversity, data quality, missing values, duplicate records, and behavioural characteristics. The results are used to support the wider dissertation investigation into how dataset characteristics may influence reported web-bot detection performance.
 
----
+
 
 ## Repository Contents
 
@@ -16,19 +16,19 @@ This is the main analysis notebook used for the final dataset comparison.
 
 It includes:
 
-* Dataset size analysis
-* Class distribution and balance
-* Feature diversity
-* Missing-value analysis
-* Duplicate-record checks
-* Descriptive statistics
-* Data-quality checks
-* Comparative tables
-* Comparative visualisations
+- Dataset size analysis
+- Class distribution and balance
+- Feature diversity
+- Missing-value analysis
+- Duplicate-record checks
+- Descriptive statistics
+- Data-quality checks
+- Comparative tables
+- Comparative visualisations
 
 The prepared outputs from the other notebooks are used in this notebook for the final analysis.
 
----
+
 
 ### `M4D-Mouse-Move-CSV.ipynb`
 
@@ -38,18 +38,18 @@ The original M4D data is stored in JSON files together with annotation files. Th
 
 The prepared information includes:
 
-* Session ID
-* Human or bot label
-* Mouse event count
-* Mouse movement duration
-* Number of visited URLs
-* Missing-value checks
-* Duplicate checks
-* Descriptive statistics
+- Session ID
+- Human or bot label
+- Mouse event count
+- Mouse movement duration
+- Number of visited URLs
+- Missing-value checks
+- Duplicate checks
+- Descriptive statistics
 
 The prepared dataset is then used in the final dataset analysis.
 
----
+
 
 ### `Simple-Semantic-CSV.ipynb`
 
@@ -57,18 +57,18 @@ This notebook prepares and analyses the Simple and Semantic feature datasets.
 
 It includes:
 
-* Dataset structure inspection
-* Session counts
-* Feature counts
-* Feature-type checks
-* Missing-value checks
-* Duplicate checks
-* Descriptive statistics
-* Preparation of the data for the final comparison
+- Dataset structure inspection
+- Session counts
+- Feature counts
+- Feature-type checks
+- Missing-value checks
+- Duplicate checks
+- Descriptive statistics
+- Preparation of the data for the final comparison
 
 The Simple and Semantic feature sets describe the same underlying web sessions but represent them using different groups of features.
 
----
+
 
 ## Practical Workflow
 
@@ -83,7 +83,7 @@ The practical work follows the steps below:
 7. Compare the datasets using tables, statistics, and visualisations.
 8. Use the findings to support the discussion in the dissertation.
 
----
+
 
 ## Datasets
 
@@ -91,15 +91,15 @@ The project uses publicly available research datasets related to human and autom
 
 The main data analysed in this repository includes:
 
-* M4D mouse-behaviour data
-* Simple feature dataset
-* Semantic feature dataset
+- M4D mouse-behaviour data
+- Simple feature dataset
+- Semantic feature dataset
 
 The original datasets are not redistributed through this repository. They should be downloaded from their original sources and used according to the licences and conditions provided by their authors.
 
 The notebooks contain the processing and analysis steps required to prepare these datasets for the dissertation.
 
----
+
 
 ## Running the Notebooks
 
@@ -116,40 +116,40 @@ To reproduce the analysis:
 
 Some Google Drive paths used during development may need to be changed when the notebooks are run from another Google account or environment.
 
----
+
 
 ## Tools and Libraries
 
 The practical analysis mainly uses:
 
-* Python
-* Google Colab
-* Pandas
-* NumPy
-* Matplotlib
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
 
 Additional standard Python libraries are used where required for tasks such as JSON processing, file handling, and reading dataset files.
 
----
+
 
 ## Outputs
 
 The notebooks produce outputs such as:
 
-* Prepared session-level datasets
-* Dataset size summaries
-* Human and bot class-distribution results
-* Feature summaries
-* Missing-value results
-* Duplicate-record results
-* Descriptive statistics
-* Data-quality summaries
-* Comparative tables
-* Visualisations
+- Prepared session-level datasets
+- Dataset size summaries
+- Human and bot class-distribution results
+- Feature summaries
+- Missing-value results
+- Duplicate-record results
+- Descriptive statistics
+- Data-quality summaries
+- Comparative tables
+- Visualisations
 
 These outputs are used to support the practical findings and discussion presented in the dissertation.
 
----
+
 
 ## Project Scope
 
@@ -161,7 +161,7 @@ Instead, it examines how different datasets represent human and automated web be
 
 The practical analysis therefore supports the wider dissertation evaluation of web-bot detection approaches from a dataset-centred perspective.
 
----
+
 
 ## Ethical Considerations
 
@@ -173,11 +173,11 @@ No passwords, authentication credentials, or intentionally collected personal in
 
 The original datasets remain subject to the licences and conditions provided by their respective authors. The research was carried out in accordance with the ethical requirements of the MSc Cybersecurity dissertation project at Sheffield Hallam University.
 
----
+
 
 ## Author
 
-**Jeswin Thomas**
-MSc Cybersecurity
-Sheffield Hallam University
+**Jeswin Thomas**  
+MSc Cybersecurity  
+Sheffield Hallam University  
 2026
